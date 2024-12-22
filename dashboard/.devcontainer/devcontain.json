@@ -1,0 +1,17 @@
+{
+    "name": "React Codespace",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "postCreateCommand": "npm install",
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "dsznajder.es7-react-js-snippets"
+    ],
+    "forwardPorts": [3000]
+  }
+  
